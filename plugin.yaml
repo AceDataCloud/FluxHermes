@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-flux",
+  "version": "1.0.0",
+  "description": "FLUX Dev text-to-image generation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_flux_generate",
+    "acedata_flux_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
