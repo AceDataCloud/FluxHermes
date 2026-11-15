@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "flux",
+  "consumer_repository": "https://github.com/AceDataCloud/FluxHermes",
+  "canonical_contract": "services/flux.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_flux",
+      "acedatacloud_single_flux"
+    ],
+    "toolset": [
+      "acedatacloud-flux",
+      "acedatacloud-single-flux"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "db349f782840ea06269ad325f54aa896a3e1a36940a016dfca95d87f6e0eb881",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/flux.json": "4c44d6a5da7a17793380c512bcb7e85857fcc7d2a356d8f1bfd4260cb0c01c09",
+    "plugin.yaml": "e7b1fc15487f2a80630d31aa52d437eb9cb4dad66827c00c2685c675594bd361",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "2a5d8048eea393a06e478654c2ba698032fac07d8ea9fef96e20eab0e4f25741",
+    "README.md": "242705aa2cc04f93986282201997ad7ddf5d0a5823971878fbe35d2205f6bb23",
+    "readme/README_zh_Hans.md": "04149f515d1e8619f36df25da2afd4c3fc076527f6a37bee86f4efdcb2002b10"
+  }
+}
